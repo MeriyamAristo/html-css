@@ -1,0 +1,5 @@
+ul{
+    list-style: inside square;
+ /* list-style: inside->bullet position 
+                square->bullet type(either use shape or img) */
+}

@@ -1,0 +1,26 @@
+#content{
+    background-color: yellowgreen;
+    padding: 15px;
+    
+}
+#page{
+    width: 960px;
+    margin: 0 auto;
+    min-width: 960px;
+}
+#l-sidebar{
+    width: 20%;
+    float: left;
+    margin-right: 3%;
+}
+#main{
+    width: 50%;
+    float: left;
+}
+#r-sidebar{
+    width: 20%;
+    float: right;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,16 @@
+#wrapper{
+    width: 50%;
+    border: 5px dashed skyblue;
+    margin: 0%;
+}
+h1,p{
+    border: 3px ridge plum;
+
+}
+span{
+    height: 10px;
+    width: 30px;
+    margin: 25px ;
+    padding: 5px ;
+    border: 2px dotted yellowgreen;
+}

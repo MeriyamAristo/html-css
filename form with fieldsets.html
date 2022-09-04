@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form with fieldsets</title>
+	<link rel="stylesheet" href="styles/style29.css">
+</head>
+<body>
+	<!--above inside legend tag in style tag,there be 
+		use margin left property use to legend is in their default state -->
+	<h2>Input elements</h2>
+    <table border="1">
+<tr>
+    <th>input type</th>
+    <th>display</th>
+</tr>
+<tr>
+    <td>text</td>
+    <td>single line text input</td>
+</tr>
+<tr>
+    <td>radio</td>
+    <td>radio button(selecting one of more choices)</td>
+</tr>
+<tr>
+    <td>checkbox</td>
+    <td>selecting zero or more option of a limited choices</td>
+</tr>
+<tr>
+    <td>submit</td>
+    <td>for submitting the form</td>
+</tr>
+<tr>
+    <td>button</td>
+    <td>displays clickable button</td>
+</tr>
+<tr>
+    <td>password</td>
+    <td>for hide giving password</td>
+</tr>
+
+    </table>
+	<br>
+	<fieldset><!-- grouping set of tags -->
+<legend>Login Details</legend>
+<form>
+	<p>
+	<label for="username">Username</label>
+	<input type="text" name="username" id="username" placeholder="enter your name">
+</p>
+<p>
+	<label for="age">Age</label>
+	<input type="number" name="age" id="age" placeholder="enter your age" required min="18">
+</p>
+<p>
+<label for="password">Password</label>
+<input type="password" name="password" id="password" size="6">
+</p>
+<p>
+<label for="Confirm password">Confirm Password</label>
+<input type="password" name="Confirmation" id="Confirm password">
+</p>
+<p>
+<label for="email_id">Email id</label>
+<input type="email" name="email id" id="email_id">
+</p>
+<br>
+</fieldset>
+<fieldset>
+<legend>Contact Details</legend>
+<p>
+	<label for="door no:">Door No:</label>
+	<input type="text" name="door.no" id="door no:">
+</p>
+<p>
+	<label for="area,street">Area,Street</label>
+	<input type="text" name="area,street" id="area,street">
+</p>
+<p>
+	<label for="district,state">District,State</label>
+	<input type="text" name="district,state" id="district,state">
+</p>
+</fieldset>
+<fieldset>
+<legend>Education Details</legend>
+<p>
+	<label for="qualification">Qualification</label>
+	<input type="text" name="qualification" id="qualification">
+</p>
+<p>
+	<label for="year passed">Year Passed</label>
+	<input type="text" name="year passed" id="year passed">
+</p>
+<p>
+	<label for="college name">College Name</label>
+	<input type="text" name="college name" id="college name">
+</p>
+</fieldset>
+<p>
+	<input type="submit" name="submit_button" value="save & send">
+</p>
+</form>
+</body>
+</html>

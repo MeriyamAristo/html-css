@@ -1,0 +1,22 @@
+#wrapper{
+    width: 50%;
+    border: 2px solid salmon;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+background-color: aqua;
+height: 50px;
+}
+li{
+    background-color: lawngreen;
+    display: inline-block;
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+}
+#comingsoon{
+visibility: hidden;/*visibility property allows the content can visible or not*/
+}

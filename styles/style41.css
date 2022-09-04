@@ -1,0 +1,15 @@
+a{
+    color: brown;
+}
+ul a{
+    color: chartreuse;
+}
+li a{
+    color: aqua;
+}
+div ul li a{
+    color: chocolate;
+}
+#nav a{
+    color: hotpink;
+}

@@ -1,0 +1,40 @@
+[title]{
+    color:aquamarine;
+}
+a[href^="https"]{
+color: brown;
+}
+a[target="_blank"]{
+color:antiquewhite;
+}
+img[alt*="icon"]{
+display: inline-block;
+border: 3px solid hotpink;
+padding: 5px;
+}
+img[alt~="icon"]{
+display: inline-block;
+border: 3px solid purple;
+padding: 5px;
+}
+a[href$=".pdf"]{
+background: url("../images/pdf.png") no-repeat center right;
+
+padding-right: 26px;
+}
+a[href$=".doc"]{
+background: url("../images/doc.png") no-repeat center right;
+padding-right: 25px;
+}
+a#dummy:link{
+color: red;
+}
+a#dummy:visited{
+color:cornflowerblue;
+}
+a#dummy:hover{
+color:violet;
+}
+a#dummy:active{
+color: brown;
+}

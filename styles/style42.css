@@ -1,0 +1,21 @@
+#right{
+    text-shadow: -5px 0 0 rgba(72, 12, 192, 0.667);
+}
+#left{
+    text-shadow: 5px 0 0 rgba(81, 9, 225, 0.667);
+}
+#top{
+    text-shadow: 0 -5px 0 rgba(119, 60, 236, 0.667);
+}
+#bottom{
+    text-shadow: 0 5px 0 rgba(79, 25, 186, 0.667);
+}
+#blurr{
+    text-shadow: 0 0 5px rgba(83, 19, 210, 0.667);
+}
+#color{
+    text-shadow: -5px 0 0 rgba(220, 21, 67, 0.667);
+}
+#combine{
+    text-shadow: -5px 0 0 rgba(74, 83, 77, 0.103);
+}

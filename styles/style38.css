@@ -1,0 +1,18 @@
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+a:focus{
+    color: peru;
+}
+#subscribe:focus{
+color: blueviolet;
+}
+#subscribe:hover{
+color: red;
+}

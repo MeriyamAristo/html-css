@@ -1,0 +1,22 @@
+body{
+    padding-top: 35px;
+            }
+            h1{
+                background-color: hotpink;
+                position: fixed;/*position fixed means it stick in that place,scroll see the difference*/
+                width: 100%;
+                left: 0;
+                top: 0;
+                z-index: -1;
+            }
+            h2{
+                background-color: indianred;
+                z-index: 0;
+            }
+            h3{
+                background-color: aquamarine;
+            }
+            p{
+                background-color: khaki;
+               
+            }

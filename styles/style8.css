@@ -1,0 +1,20 @@
+table{
+    width: 85%;
+    border: 5px solid grey;
+    border-collapse: collapse;
+}
+th,td{
+    border: 3px solid hotpink;
+    padding: 5px;
+    
+}
+#time,#day{
+    background-color: burlywood;
+    text-transform: uppercase;
+}
+.left{
+    text-align: left;
+}
+.duration{
+    background-color: blanchedalmond;
+}

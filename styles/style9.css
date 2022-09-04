@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+color: aliceblue;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid skyblue;
+    margin: 20px auto;
+    padding: 5px;
+}
+#left{
+    box-shadow: -5px -5px greenyellow;
+    border-radius: 10px;
+}
+#br{
+    box-shadow: 5px 5px greenyellow;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#brs{
+    box-shadow: 5px 5px 3px 7px greenyellow;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#outer{
+    box-shadow: 0 0 15px greenyellow;
+    border-radius: 10px 15px 20px 25px;
+}
+#inset{
+    box-shadow: inset 0 0 15px greenyellow; 
+    border-radius: 100px;
+    text-align: center;
+    line-height: 100px;
+}

@@ -1,0 +1,19 @@
+span {
+    color: blue;
+    border: 1px solid black;
+  }
+  .climate{
+    color: green;
+  }
+  .climate p{
+    color: unset;
+    /* comd to take style of it's parent */
+  }
+  .climate span {
+    color: inherit;
+    /* color inherit from parent */
+  }
+  .spicy{
+    color: initial;
+    /* intial goes to default style */
+  }

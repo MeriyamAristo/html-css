@@ -1,0 +1,9 @@
+#wrapper{
+    width: 50%;
+    border: 5px solid brown;
+   
+}
+p,h1{
+    border: 3px dashed palevioletred;
+    padding: 5px 10px 15px 20px;
+}
