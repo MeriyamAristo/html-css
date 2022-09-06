@@ -1,0 +1,4 @@
+.positioned {
+    position: static;/*static:is default positioning.*/
+    background: skyblue;
+  }

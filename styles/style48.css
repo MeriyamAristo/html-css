@@ -1,0 +1,6 @@
+.positioned{
+    position: absolute;/*absolute:must placed the content where i mentioned,if already content present means it overlap or behind that content*/
+    background: skyblue;
+    top:30px;
+    left: 30px;
+}
