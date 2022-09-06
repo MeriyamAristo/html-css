@@ -3,10 +3,10 @@ h1{
 }
 h2{
     background-color: indianred;
-    position: relative;
+    position: relative;/*relative:display after the content which is already placed*/
     left: 25px;
     top: -30px;
-    z-index: 3;
+    z-index: 3;/*z index: +ve value for overlap, -ve value for bhehind*/
 }
 h3{
     background-color: aquamarine;
