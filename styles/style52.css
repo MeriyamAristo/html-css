@@ -1,0 +1,37 @@
+div.trans>p{
+        width: 100px;
+        height: 200px;
+        background: yellowgreen;
+        transition: width 2s linear 1s;/* transition shorthand property:
+        transition: property duration fuction delay */
+      }
+      
+      div.trans>p:hover {
+        width: 300px;
+      }
+
+  div.sample {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  div.sample:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+  }
+  div.list{
+    
+        width:200px;
+        height:200px;
+        background: yellowgreen;
+        transition: width 2s, height 4s;
+      }
+      
+     div.list:hover {
+        width: 300px;
+        height: 300px;
+      }
+  

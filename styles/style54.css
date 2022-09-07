@@ -1,0 +1,13 @@
+.newspaper{
+    column-count: 3;
+    column-width: 200px;
+    column-rule-style: solid;
+    column-rule-color: yellowgreen;
+    column-rule-width: 5px;
+    
+     /* column shorthand property: 
+    column-rule:4px dotted rgb(79, 185, 227); 
+    */
+}
+
+  
