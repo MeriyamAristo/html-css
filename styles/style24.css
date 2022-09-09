@@ -10,7 +10,10 @@ ul{
 background-color: aqua;
 height: 50px;
 }
- li{ /* li is a block level elements */
+/* Inline Element: Displays an element as an inline element (eg, <span>). Any height and width properties will have no effect.
+   Block elements: Displays an element as a block element (eg, <p>). It starts on a new line, and takes up the whole width.
+  inline-block: Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values. */
+ li{ 
     background-color: lawngreen;
     display: inline-block;/*display:inline means display block level element as inline*/
     height: 50px;
