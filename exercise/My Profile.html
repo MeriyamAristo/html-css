@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/profile.css">
+</head>
+<body>
+    
+        <div class="hero">
+            <h2 class="name">Hazel</h2>
+            <nav> <!--declare menu in navigation tag-->
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <!--link about page by id name-->
+                <li ><a href="#about-me">About</a></li>
+                <li ><a href="#skills">Skills</a></li>
+                <li ><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Subscribe</a>
+        </nav>
+    <div class="content">
+        <h3>Hey there!</h3>
+        <h2>I'm <span class="hazel">Hazel</span></h2>
+        <h4>I'm a <span class="wd">Web Developer</span></h4>
+        <div class="subscribe">
+            <form>
+               <input type="text" placeholder="enter your name" name="name">
+               <input type="submit" value="Lets Start" name="submit">
+            </form>
+        </div>
+ </div>
+    </div>
+
+    <section class="about" id="about-me">
+        <div class="main">
+            <img src="../images/web designer.jpg" alt="web designer">
+            <div class="about_content">
+                <h2>About</h2>
+                <h4>I work as <span>Developer cum Designer</span></h4>
+                
+                <p>I graduated as a Nutritionist but I am interested to learn Frontend topics because of my cousin.</p>
+                    <p> He works as Java Developer. By him only I introduce myself to learning HTML, CSS, and JS later in styling web development.</p>
+                    <p>Now my work goes in this way.</p>
+                    <a href="#" class="courses">Courses</a>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="skills" id="skills">
+        <div class="title">
+            <h2>Skills</h2>
+            <div class="box">
+                <div class="card">
+                    <i class="fa-regular fa-rectangle-list"></i>
+                    <h4>Web Designing</h4>
+                    <div class="para">
+                        <p style="text-align: center;">Responsive Web Development using HTML,CSS,JS <br>
+                            <a href="#" class="button">Read More</a></p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-regular fa-rectangle-list"></i>
+                    <h4>Mobile App Development</h4>
+                    <div class="para">
+                        <p style="text-align: center;">Mobile App Development using Flutter <br>
+                            <a href="#" class="button">Read More</a></p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-regular fa-rectangle-list"></i>
+                    <h4>Software Testing</h4>
+                    <div class="para">
+                        <p style="text-align:center;">Automation Testing use Selenium <br>
+                            <a href="#" class="button">Read More</a></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hire">
+        <h3>Get Your Nice Website <br>
+        <a href="#" class="button">Hire Me</a>
+    </h3>
+    </div>
+
+    <div class="footer" id="contact">
+      <div class="social_media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p class="copy">Copyleft</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+/* home style starts */
+.hero{
+    height: 100vh;/*view port height*/
+    width: 100%;
+    background-image: url(../../images/mountain.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;/*flex for fix crctly */
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    z-index: 12;
+ 
+}
+nav ul{
+    display: flex;
+    float: right;
+}
+nav a{
+    color: rgb(167, 194, 243);
+    font-weight: bold; 
+}
+nav ul li {
+    padding: 0px 80px;
+list-style: none;
+}
+.name{
+    color: rgb(145, 179, 241);
+    font-size: 45px;
+}
+nav ul li a{
+    color: rgb(187, 207, 244);
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a{
+    color: rgb(187, 207, 244);
+    font-weight: bold;
+    text-decoration: none;   
+}
+nav ul li a:hover{
+    color:rgb(76, 135, 244) ;
+    transition: 1s;
+}
+nav a:hover{
+    color:cornflowerblue ;
+    transition: 1s;
+}
+.btn{
+    background-color: rgb(40, 112, 245);
+    color:aliceblue;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 20;
+}
+/* home style ends */
+/* about style starts */
+.content{
+    top: 35%;
+    left: 30%;
+    position: absolute;
+    transform: translate(50%,50%);
+}
+.content h3{
+    color: rgb(145, 179, 241);
+}
+.content h2{
+    color: rgb(145, 179, 241);
+    margin-bottom: 20px;
+}
+.content h2 .hazel{
+    color: rgb(185, 208, 250);
+}
+.content h4{
+    color: rgb(145, 179, 241);
+    margin-bottom: 5px;
+}
+.content h4 .wd{
+    color: rgb(185, 208, 250); 
+}
+.subscribe form{
+    width: 400px;
+    position: relative;
+}
+.subscribe form input:first-child{
+display: inline-block;
+width: 75%;
+padding: 15px 10px 13px 05px;
+border:3px solid aliceblue;
+border-radius: 40px;
+}
+.subscribe form input:last-child{
+    display: inline-block;
+    padding: 13px 23px;
+    border: none;
+    background-color:cornflowerblue ;
+    color: aliceblue;
+    top:4px;
+    right:103px;
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: 0px 0px 10px cornflowerblue;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#2A3A51;
+}
+ .about img{ 
+    height: 500px;
+    width: 500px;
+    padding:60px 0px 50px 80px;
+}
+.about_content{
+    color: aliceblue ;
+    margin: 140px 80px 50px 100px;
+}
+.main{
+    display: flex;
+}
+.about_content h2{
+    font-size: 50px;
+}
+.about_content h4{
+    font-size: 30px;
+    color: aliceblue;
+}
+.about_content h4 span{
+    color:rgb(145, 179, 241);
+}
+.about_content p{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+
+.courses{
+    background-color: rgb(40, 112, 245);
+    color:aliceblue;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 10;
+    text-decoration: none;
+  padding: 5px;
+}
+.courses:hover{
+    background-color: transparent;
+    border: 2px solid  rgb(40, 112, 245);
+    cursor: pointer;/*see how cursor change */
+    
+}
+/* about syles end */
+/* skills style starts */
+.skills{
+    background: rgb(116, 175, 227);
+    padding: 90px 5px;
+}
+.title h2{
+    color:#2A3A51;
+    font-size: 60px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width: 270px;
+    background:rgb(61, 80, 114);
+    border-radius: 25px;
+    margin: 12px;
+    box-shadow: 0px 0px 10px rgb(61, 80, 114);
+}
+.card h4{
+    text-align: center;
+    color: rgb(211, 232, 250);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.para p{
+color:rgb(211, 232, 250);
+font-size: 15px;
+margin-bottom: 10px;
+line-height: 30px;
+margin-top: 30px;
+}
+.para .button{
+    background-color:rgb(116, 175, 227);
+    color: rgb(211, 232, 250);
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    padding: 5px;
+}
+.para .button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(211, 232, 250);
+    cursor: pointer;
+}
+.card i{
+    color:rgb(116, 175, 227);
+    font-size: 40px;
+    margin: 30px 13px 0px 117px;
+}
+/* skills styles ends */
+/* hore styles starts */
+.hire{
+    width: 100%;/*must come in center while using width is 100% */
+    align-items: center;
+    background-color: #2A3A51;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.hire h3{
+    font-size: 50px;
+    color:rgb(116, 175, 227) ;
+}
+.hire .button{
+    background-color:rgb(116, 175, 227);
+    color: rgb(211, 232, 250);
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 40%;
+    }
+.hire .button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(211, 232, 250);
+    cursor: pointer;
+}
+/* hire styles ends */
+/* footer styles starts */
+
+    .footer{
+        width: 100%;
+        background:rgb(116, 175, 227);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+
+.footer .copy{
+    font-size: 15px;
+    color:rgb(211, 232, 250);
+    font-weight: bold;
+   
+}
+
+.footer .social_media a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background:#2A3A51;
+    border-radius: 50%;
+    color:rgb(116, 175, 227);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px 10px;
+    display: inline-flex;
+    font-size: 23px;
+    display: inline-flex;
+    
+    
+    }
+.footer .social_media a:hover{
+    background-color: transparent;
+    border: 3px solid rgb(211, 232, 250);
+    cursor: pointer;
+    color:rgb(211, 232, 250);
+    transform: scale(1.1);
+    transition: .5s;
+}
